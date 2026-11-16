@@ -5,9 +5,17 @@ public class Funciones1 {
 		
 		return num1 + num2;
 		
-
 	}
 	
+	
+	public static boolean esPar(int numero) {
+		return numero % 2 == 0;
+	}
+	
+	
+	public static boolean esImpar(int numero) {
+		return numero % 2 != 0;
+	}
 
 
 	
